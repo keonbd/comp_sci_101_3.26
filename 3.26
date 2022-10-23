@@ -1,0 +1,12 @@
+inp = int(input())
+j = str(inp)
+i = 0
+if inp <11 or inp >100:
+    print('Input must be 11-100')
+while inp >= 11 and inp <= 100:
+    j = str(inp)
+    chars = ([*j])
+    print(inp)
+    inp -= 1
+    chars0: int = int(chars[0])
+    chars1: int = int(chars[1])
